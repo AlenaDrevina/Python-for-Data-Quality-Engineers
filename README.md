@@ -45,3 +45,7 @@ homEwork:
 
   last iz TO calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87.
 ```
+##HW_Module_3
+```bash
+Refactor homeworks from module 2 and 3 using functional approach with decomposition.
+```
