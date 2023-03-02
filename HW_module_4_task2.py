@@ -2,7 +2,7 @@ import string
 import random
 
 # create a list of random number of dicts (from 2 to 10)
-def create_list_of_dict(random_number_from, random_number_to, size_dictionary=4, random_letter_from = 5, random_letter_to = 1):
+def create_list_of_dict(random_number_from=1, random_number_to=2, size_dictionary=4, random_letter_from = 1, random_letter_to = 2):
     dict_list = []
     for x in range(random.randint(random_number_from, random_number_to)):
         size = size_dictionary
@@ -14,7 +14,7 @@ def create_list_of_dict(random_number_from, random_number_to, size_dictionary=4,
     return dict_list
 
 # call the function with parameters
-dict_list = create_list_of_dict(random_number_from = 2, random_number_to = 10, random_letter_to = 50)
+dict_list = create_list_of_dict(random_number_from = 2, random_number_to = 10, random_letter_to = 5)
 print('Initial list of dictionaries: ', dict_list)
 
 # get previously generated list of dicts and create one common dict
