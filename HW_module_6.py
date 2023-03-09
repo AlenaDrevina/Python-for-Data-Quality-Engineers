@@ -139,15 +139,6 @@ if __name__ == "__main__":
             question_divination.ask_future()
         elif flag == '4':
             f_contents_new, path_for_remove = FromAnotherSource().read_file()
-#            print(f_contents)
-#             num_records = int(input("Enter records num:\n"))
-#             count = 0
-#             for i, line in enumerate(f_contents):
-#                 if line == '\n':
-#                     count += 1
-#                     if count == 2*num_records:
-#                         f_contents_new = f_contents[:i+1]
-#                         break
             with open("Module6_paste.txt", "a", encoding='utf-8') as file:
                 file.writelines(f_contents_new)
             print(f'This file {path_for_remove} will be removed now\n')
