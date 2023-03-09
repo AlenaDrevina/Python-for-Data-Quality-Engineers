@@ -7,7 +7,7 @@ class PrintMessage:
     def __init__(self, message):
         self.message = message
 
-    # create a method which inserts the formatted text into text file newsfeed05
+    # create a method which inserts the formatted text into text file
     def print_message(self):
         ptf = open("Module6_paste.txt", "a")      # open file to add
         print(self.message, file=ptf)
@@ -23,11 +23,7 @@ class News:
         message = f'News ----------------------------\n{self.news_msg}\n{self.location},' \
                   f'{datetime.datetime.now().strftime("%d/%m/%y %H:%M")}\n' \
                   f'---------------------------------\n\n'
-        message = normalize(message)
-        self.ptf = PrintMessage(message)
-        ptf = self.ptf
-        ptf.print_message()
-
+        PrintMessage(normalize(message)).print_message()
 
 class Advertising:
     def __init__(self, adv_message, actual_until=None):
@@ -40,11 +36,7 @@ class Advertising:
                   f'Actual until: {self.actual_until},' \
                   f'{(datetime.datetime.strptime(self.actual_until, "%d/%m/%y") - datetime.datetime.now()).days}days left\n' \
                   f'----------------------------------\n\n'
-        message = normalize(message)
-        self.ptf = PrintMessage(message)
-        ptf = self.ptf
-        ptf.print_message()
-
+        PrintMessage(normalize(message)).print_message()
 
 class Guess:
     def __init__(self, guessing):
@@ -60,11 +52,7 @@ class Guess:
                      f'Your question - "{self.guessing}",\n' \
                      f'Witch\'s answer will be - {test_list[random_test_list]}\n' \
                      f'----------------------------------\n\n'
-        prediction = normalize(prediction)
-        self.prt = PrintMessage(prediction)
-        prt = self.prt
-        prt.print_message()
-
+        PrintMessage(normalize(prediction)).print_message()
 
 class FromAnotherSource:
 
@@ -119,7 +107,15 @@ class FromAnotherSource:
                         print('No file with such name. Try again')
             else:
                 print('Try again here')
-        return f_contents, path_for_remove
+        num_records = int(input("Enter records num:\n"))
+        count = 0
+        for i, line in enumerate(f_contents):
+            if line == '\n':
+                count += 1
+                if count == 2 * num_records:
+                    f_contents_new = f_contents[:i + 1]
+                    break
+        return f_contents_new, path_for_remove
 
 
 # ask a user what data he wants to print and then call a class and insert the data into file using inserting method
@@ -142,10 +138,18 @@ if __name__ == "__main__":
             question_divination = guessing
             question_divination.ask_future()
         elif flag == '4':
-            f_contents, path_for_remove = FromAnotherSource().read_file()
-            with open("Module6.txt", "a", encoding='utf-8') as file:
-                for line in f_contents:
-                    file.write(line)
+            f_contents_new, path_for_remove = FromAnotherSource().read_file()
+#            print(f_contents)
+#             num_records = int(input("Enter records num:\n"))
+#             count = 0
+#             for i, line in enumerate(f_contents):
+#                 if line == '\n':
+#                     count += 1
+#                     if count == 2*num_records:
+#                         f_contents_new = f_contents[:i+1]
+#                         break
+            with open("Module6_paste.txt", "a", encoding='utf-8') as file:
+                file.writelines(f_contents_new)
             print(f'This file {path_for_remove} will be removed now\n')
             os.remove(path_for_remove)
         elif flag == '5':
