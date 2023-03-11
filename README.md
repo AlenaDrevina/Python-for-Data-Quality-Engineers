@@ -45,7 +45,90 @@ homEwork:
 
   last iz TO calculate nuMber OF Whitespace characteRS in this Tex. caREFULL, not only Spaces, but ALL whitespaces. I got 87.
 ```
-##HW_Module_3
+
+##HW_Module_4
 ```bash
 Refactor homeworks from module 2 and 3 using functional approach with decomposition.
+```
+
+##HW_Module_5
+```bash
+Create a tool, which will do user generated news feed:
+
+1.User select what data type he wants to add
+
+2.Provide record type required data
+
+3.Record is published on text file in special format
+
+ 
+
+You need to implement:
+
+1.News – text and city as input. Date is calculated during publishing.
+
+2.Privat ad – text and expiration date as input. Day left is calculated during publishing.
+
+3.Your unique one with unique publish rules.
+
+ 
+
+Each new record should be added to the end of file. Commit file in git for review.
+```
+
+##HW_Module_6
+```bash
+Expand previous Homework 5 with additional class, which allow to provide records by text file:
+
+1.Define your input format (one or many records)
+
+2.Default folder or user provided file path
+
+3.Remove file if it was successfully processed
+
+4.Apply case normalization functionality form Homework 3/4
+```
+
+##HW_Module_7
+```bash
+Calculate number of words and letters from previous Homeworks 5/6 output test file.
+
+Create two csv:
+
+1.word-count (all words are preprocessed in lowercase)
+
+2.letter, cout_all, count_uppercase, percentage (add header, spacecharacters are not included)
+
+CSVs should be recreated each time new record added.
+```
+
+##HW_Module_8
+```bash
+Expand previous Homework 5/6/7 with additional class, which allow to provide records by JSON file:
+
+1.Define your input format (one or many records)
+
+2.Default folder or user provided file path
+
+3.Remove file if it was successfully processed
+```
+
+##HW_Module_9
+```bash
+Expand previous Homework 5/6/7/8 with additional class, which allow to provide records by XML file:
+
+1.Define your input format (one or many records)
+
+2.Default folder or user provided file path
+
+3.Remove file if it was successfully processed
+```
+
+##HW_Module_10
+```bash
+1.Different types of records require different data tables
+
+2.New record creates new row in data table
+
+3.Implement “no duplicate” check.
 ```
