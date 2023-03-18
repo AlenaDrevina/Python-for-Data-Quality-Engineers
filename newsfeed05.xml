@@ -1,0 +1,16 @@
+<records>
+    <block type = 'News'>
+        <text>Something happened</text>
+        <location>Minsk</location>
+        <date>16/03/23 19:41</date>
+    </block>
+    <block type = 'Private Ad'>
+        <text>I want to sell something</text>
+        <date>Actual until: 17/03/23, 1 days left</date>
+    </block>
+        <block type = 'How do you think?'>
+        <question>Tomorrow it will be rainy in your city?</question>
+        <answer>Your answer - "no"</answer>
+        <conclusion>probability will be 43 %</conclusion>
+    </block>
+</records>
