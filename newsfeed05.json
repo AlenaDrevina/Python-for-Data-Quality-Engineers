@@ -1,0 +1,25 @@
+[
+    {
+        "type": "News",
+        "text": "I plan to travel",
+        "location": "Valencia",
+        "date": "13/03/2023 21:58"
+    },
+    {
+        "type": "News",
+        "text": "I will swim soon",
+        "location": "Barcelona",
+        "date": "13/03/2023 21:58"
+    },
+    {
+        "type": "Private Ad",
+        "text": "I want to sell a book",
+        "date": "Actual until: 12/03/2022, 4 days left"
+    },
+        {
+        "type": "How do you think?",
+        "question": "Will I be a singer?",
+        "answer": "Your answer – definitely",
+        "conclusion": "probability will be 43 %"
+    }
+]
