@@ -1,9 +1,8 @@
 [
     {
-        "type": "News",
-        "text": "I plan to travel",
-        "location": "Valencia",
-        "date": "13/03/2023 21:58"
+        "type": "Ask me about your future?",
+        "question": "Will I be a singer?",
+        "conclusion": "probability will be 43 %"
     },
     {
         "type": "News",
@@ -17,9 +16,8 @@
         "date": "Actual until: 12/03/2022, 4 days left"
     },
         {
-        "type": "How do you think?",
+        "type": "Ask me about your future?",
         "question": "Will I be a singer?",
-        "answer": "Your answer – definitely",
         "conclusion": "probability will be 43 %"
     }
 ]

@@ -4,7 +4,7 @@ import datetime
 import random
 import json
 from HW_module_6 import News, Advertising, Guess, FromAnotherSource
-#from HW_module_7 import WordsCount, LettersCount
+from HW_module_7 import WordsCount, LettersCount
 
 class FileInsert:
 
@@ -90,11 +90,10 @@ class FromJson(FileInsert):
                         data.append(str(d["date"]) + "\n")
                         data.append('---------------------------------' + "\n\n\n")
                         insert_into_file.append(data)
-                elif d["type"] == 'How do you think?':
-                    if len(d["question"]) > 0 and len(d["answer"]) > 0 and len(d["conclusion"]) > 0:
-                        data.append('How do you think? ----------------'+'\n')
+                elif d["type"] == 'Ask me about your future?':
+                    if len(d["question"]) > 0 and len(d["conclusion"]) > 0:
+                        data.append('Ask me about your future? ----------------'+'\n')
                         data.append(d["question"] + "\n")
-                        data.append(d["answer"] + "\n")
                         data.append(d["conclusion"] + "\n")
                         data.append('---------------------------------' + "\n\n\n")
                         insert_into_file.append(data)

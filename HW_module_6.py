@@ -25,6 +25,14 @@ class News:
                   f'---------------------------------\n\n'
         PrintMessage(normalize(message)).print_message()
 
+    def message_list(self):
+        d = []
+        d.append('News ----------------------------\n')
+        d.append(self.news_msg + "\n")
+        d.append(self.location + ', ' + datetime.datetime.now().strftime("%d/%m/%y %H:%M") + "\n")
+        d.append('---------------------------------\n\n')
+        return d
+
 class Advertising:
     def __init__(self, adv_message, actual_until=None):
         self.adv_message = adv_message
@@ -38,6 +46,16 @@ class Advertising:
                   f'----------------------------------\n\n'
         PrintMessage(normalize(message)).print_message()
 
+    def message_list(self):
+        d = []
+        d.append('Private Ad -----------------------\n')
+        d.append(self.adv_message + "\n")
+        d.append("Actual until: " + self.actual_until + ', '
+                 + str((datetime.datetime.strptime(self.actual_until, "%d/%m/%y") - datetime.datetime.now()).days)
+                 + " days left" + "\n")
+        d.append('----------------------------------\n\n')
+        return d
+
 class Guess:
     def __init__(self, guessing):
         self.guessing = guessing
@@ -48,11 +66,22 @@ class Guess:
                         'Most likely', 'Ask again later', 'Better not tell you now', 'Cannot predict now',
                         'Don\'t count on it', 'My reply is no', 'My sources say no', 'Very doubtful']
         random_test_list = random.randint(0, len(test_list) - 1)
-        prediction = f'Ask me about your future? --------\n' \
+        answer = test_list[random_test_list]
+        prediction = f'Ask me about your future? ----------------\n' \
                      f'Your question - "{self.guessing}",\n' \
-                     f'Witch\'s answer will be - {test_list[random_test_list]}\n' \
+                     f'Witch\'s answer will be - {answer}\n' \
                      f'----------------------------------\n\n'
         PrintMessage(normalize(prediction)).print_message()
+        return answer
+
+    def message_list(self):
+        answer = self.ask_future()
+        d = []
+        d.append('Ask me about your future? ----------------\n')
+        d.append('Your question - ' + self.guessing + "\n")
+        d.append('Witch answer will be - ' + answer + '\n')
+        d.append('----------------------------------\n\n')
+        return d
 
 class FromAnotherSource:
 
@@ -109,13 +138,25 @@ class FromAnotherSource:
                 print('Try again here')
         num_records = int(input("Enter records num:\n"))
         count = 0
+        print('f_contest - ', f_contents)
         for i, line in enumerate(f_contents):
             if line == '\n':
                 count += 1
                 if count == 2 * num_records:
                     f_contents_new = f_contents[:i + 1]
                     break
-        return f_contents_new, path_for_remove
+
+        separator = '\n'      # creating list of lists
+        f_contents_new_fix = []
+        sublist = []
+        for item in f_contents_new:
+            if item == separator:
+                f_contents_new_fix.append(sublist)
+                sublist = []
+            else:
+                sublist.append(item)
+        f_contents_new_fix.append(sublist)
+        return f_contents_new, f_contents_new_fix, path_for_remove
 
 
 # ask a user what data he wants to print and then call a class and insert the data into file using inserting method
