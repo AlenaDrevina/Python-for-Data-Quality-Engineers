@@ -21,6 +21,67 @@ I will swim soon
 Barcelona, 13/03/2023 21:58
 ---------------------------------
 
+News ----------------------------
+last hometask
+python,22/03/23 08:29
+---------------------------------
+
+
+Private ad -----------------------
+i want to sell the note
+actual until: 23/03/23,0days left
+----------------------------------
+
+
+Ask me about your future? ----------------
+your question - "my mother will fly tomorrow",
+witch's answer will be - ask again later
+----------------------------------
+
+
+Ask me about your future? ----------------
+your question - "my mother will fly tomorrow",
+witch's answer will be - don't count on it
+----------------------------------
+
+
+News ----------------------------
+Something happened
+Minsk, 16/03/23 19:41
+---------------------------------
+
+Private Ad -----------------------
+I want to sell something
+Actual until: 17/03/23, 1 days left
+----------------------------------
+
+Ask me about your future? ----------------
+Tomorrow it will be rainy in your city?
+probability will be 43 %
+----------------------------------
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+news new
+minsk,22/03/23 08:43
+---------------------------------
+
+News ----------------------------
+I plan to travel
+Valencia, 13/03/2023 21:58
+---------------------------------
+
 
 Private Ad -----------------------
 I want to sell a book
@@ -28,16 +89,39 @@ Actual until: 12/03/2022, 4 days left
 ---------------------------------
 
 
-How do you think? ----------------
+Ask me about your future? ----------------
 Will I be a singer?
-Your answer – definitely
+probability will be 43 %
+---------------------------------
+
+
+Ask me about your future? ----------------
+Will I be a singer?
+probability will be 43 %
+---------------------------------
+
+
+Ask me about your future? ----------------
+Will I be a singer?
 probability will be 43 %
 ---------------------------------
 
 
 News ----------------------------
-I plan to travel
-Valencia, 13/03/2023 21:58
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+Ask me about your future? ----------------
+Will I be a singer?
+probability will be 43 %
 ---------------------------------
 
 
@@ -53,9 +137,224 @@ Actual until: 12/03/2022, 4 days left
 ---------------------------------
 
 
-How do you think? ----------------
+Ask me about your future? ----------------
 Will I be a singer?
-Your answer – definitely
+probability will be 43 %
+---------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+News ----------------------------
+111
+2,22/03/23 16:04
+---------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+Ask me about your future? ----------------
+Your question - "Will I sleep well today",
+Witch's answer will be - Don't count on it
+----------------------------------
+
+
+News ----------------------------
+i finished the course
+epam,22/03/23 16:17
+---------------------------------
+
+
+Private ad -----------------------
+i want to sell the notes
+actual until: 23/03/23,0days left
+----------------------------------
+
+
+Ask me about your future? ----------------
+your question - "if the mentor aproves my work?",
+witch's answer will be - without a doubt
+----------------------------------
+
+
+Ask me about your future? ----------------
+your question - "if the mentor aproves my work?",
+witch's answer will be - don't count on it
+----------------------------------
+
+
+News ----------------------------
+Festival will be in Malaga
+Major Plaza, 02/03/23 09:41
+---------------------------------
+
+
+Private Ad -----------------------
+I   would like to buy a book
+Actual until: 03/03/23, 0 days left
+----------------------------------
+
+
+Ask me about your future? ----------------
+Your question - "Will I sleep well today",
+Witch's answer will be - Don't count on it
+----------------------------------
+
+
+Ask me about your future? ----------------
+Will I be a singer?
+probability will be 43 %
+---------------------------------
+
+
+News ----------------------------
+I will swim soon
+Barcelona, 13/03/2023 21:58
+---------------------------------
+
+
+Private Ad -----------------------
+I want to sell a book
+Actual until: 12/03/2022, 4 days left
+---------------------------------
+
+
+Ask me about your future? ----------------
+Will I be a singer?
 probability will be 43 %
 ---------------------------------
 
@@ -70,41 +369,50 @@ I want to sell something
 Actual until: 17/03/23, 1 days left
 ----------------------------------
 
-How do you think? ----------------
+Ask me about your future? ----------------
 Tomorrow it will be rainy in your city?
-Your answer - "no"
 probability will be 43 %
 ----------------------------------
 
 News ----------------------------
-Something happened
-Minsk, 16/03/23 19:41
+that's all
+minsk,22/03/23 16:23
 ---------------------------------
 
-Private Ad -----------------------
-I want to sell something
-Actual until: 17/03/23, 1 days left
+
+Ask me about your future? ----------------
+your question - "will i sleep well today?",
+witch's answer will be - it is decidedly so
 ----------------------------------
 
-How do you think? ----------------
-Tomorrow it will be rainy in your city?
-Your answer - "no"
-probability will be 43 %
+
+Ask me about your future? ----------------
+your question - "will i sleep well today?",
+witch's answer will be - very doubtful
 ----------------------------------
+
+
+Ask me about your future? ----------------
+Will I be a singer?
+probability will be 43 %
+---------------------------------
+
 
 News ----------------------------
-Something happened
-Minsk, 16/03/23 19:41
+I will swim soon
+Barcelona, 13/03/2023 21:58
 ---------------------------------
 
-Private Ad -----------------------
-I want to sell something
-Actual until: 17/03/23, 1 days left
-----------------------------------
 
-How do you think? ----------------
-Tomorrow it will be rainy in your city?
-Your answer - "no"
+Private Ad -----------------------
+I want to sell a book
+Actual until: 12/03/2022, 4 days left
+---------------------------------
+
+
+Ask me about your future? ----------------
+Will I be a singer?
 probability will be 43 %
-----------------------------------
+---------------------------------
+
 

@@ -84,11 +84,10 @@ class FromXml(FileInsert):
                     print("Empty text in tag for ad was found")
                     insert_into_file = 'Empty'
                     break
-            elif i.get('type') == 'How do you think?':
+            elif i.get('type') == 'Ask me about your future?':
                 try:
-                    data.append('How do you think? ----------------' + "\n")
+                    data.append('Ask me about your future? ----------------' + "\n")
                     data.append(i.find('question').text + "\n")
-                    data.append(i.find('answer').text + "\n")
                     data.append(i.find('conclusion').text + "\n")
                     data.append('----------------------------------' + "\n\n")
                     insert_into_file.append(data)
